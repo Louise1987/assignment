@@ -5,16 +5,16 @@ body {
 }
 
 #nav {
-    margin-top: 0px;
     float: right;
     padding: 20px;
+    
 }
 
 #header {
     width: 100%;
     height: 60px;
     background-color: rgb(228, 138, 138);
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     
 
 }
@@ -22,4 +22,5 @@ body {
 
 #meny{
     padding: 20px;
+    flex-wrap: nowrap;
 }
